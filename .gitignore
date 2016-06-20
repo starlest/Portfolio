@@ -51,3 +51,8 @@ fabric.properties
 
 # *.iml
 # modules.xml
+
+src
+Gruntfile.js
+node_modules
+package.json

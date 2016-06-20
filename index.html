@@ -4,57 +4,66 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Portfolio</title>
+
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="title-logo" src="http://placehold.it/100x100" alt="Udacity logo">
-                </div>
-                <div class="col-md-6 text-right text-uppercase">
-                    <h1 class="title-super text-thin">Jane Doette</h1>
-                    <h4>Front-end Ninja</h4>
-                </div>
+    <body class="container">
+        <header class="row">
+            <picture class="col-md-6 title-logo">
+                <source srcset="img/Logo.svg" type="image/svg+xml">
+                <img src="img/Logo.png" alt="Logo">
+            </picture>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-thin">Edwin Chia</h1>
+                <h4>Front-end Web Developer</h4>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
+        </header>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <img class="img-responsive" src="http://placehold.it/1140x350" alt="Main Image">
-                </div>
+        </div>
+
+        <section class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="http://placehold.it/1140x350" alt="Main Image">
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Featured Work</h2>
-                </div>
+            <p class="col-md-12 text-black">
+                My name is Edwin Chia. I love to code!
+            </p>
+        </section>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify" data-toggle="modal"
-                         data-target="#project1">
-                    <h3 class="text-uppercase">Appify</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
-                    <h3 class="text-uppercase">Appify</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-                <div class="col-md-4">
-                    <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
-                    <h3 class="text-uppercase">Appify</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify" data-toggle="modal"
+                     data-target="#project1">
+                <h3 class="text-uppercase">Appify</h3>
+                <p><a href="http://github.com">Link to project</a></p>
             </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
+                <h3 class="text-uppercase">Appify</h3>
+                <p><a href="http://github.com">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
+                <h3 class="text-uppercase">Appify</h3>
+                <p><a href="http://github.com">Link to project</a></p>
+            </div>
+        </div>
         </div>
 
         <!-- Modal -->

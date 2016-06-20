@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    color: #747704;
+    color: gray;
     font-weight: 300;
 }
 
@@ -18,4 +18,9 @@ body {
 
 .title-logo {
     margin-top: 20px;
+}
+
+.text-black {
+    color: black;
+    font-weight: 600;
 }

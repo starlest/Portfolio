@@ -12,17 +12,29 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico"/>
     </head>
     <body class="container">
+
         <header class="row">
-            <picture class="col-md-6 title-logo">
-                <source srcset="img/Logo.svg" type="image/svg+xml">
-                <img src="img/Logo.png" alt="Logo">
-            </picture>
-            <div class="col-md-6 text-right text-uppercase">
-                <h1 class="title-super text-thin">Edwin Chia</h1>
-                <h4>Front-end Web Developer</h4>
+            <div class="col-md-6">
+                <picture class="title-logo">
+                    <source srcset="img/fixed/Logo.svg" type="image/svg+xml">
+                    <img src="img/fixed/Logo.png" alt="Logo">
+                </picture>
             </div>
+            <section class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-thin">Edwin Chia</h1>
+                <h4>Web/Mobile Developer</h4>
+
+                <div id="social">
+                    <a class="brandico-twitter-bird" href="https://twitter.com/TheRealStarlest"
+                       target="_blank">Twitter</a>
+                    <a class="brandico-facebook-rect" href="https://www.facebook.com/starlest"
+                       target="_blank">Facebook</a>
+                    <a class="brandico-github" href="https://github.com/starlest" target="_blank">GitHub</a>
+                </div>
+            </section>
         </header>
 
         <div class="row">
@@ -33,10 +45,15 @@
 
         <section class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="http://placehold.it/1140x350" alt="Main Image">
+                <picture>
+                    <source media="(min-width: 750px)"
+                            srcset="img/mountains-nature-sky-sunny-1600_large_2x.jpg 2x, img/mountains-nature-sky-sunny-800_large_1x.jpg">
+                    <source media="(min-width: 500px)" srcset="img/mountains-nature-sky-sunny-640_medium.jpg">
+                    <img class="img-responsive" src="img/mountains-nature-sky-sunny-320_small.jpg" alt="Main Image">
+                </picture>
             </div>
             <p class="col-md-12 text-black">
-                My name is Edwin Chia. I love to code!
+                My name is Edwin Chia. <br> I love to code. <br>
             </p>
         </section>
 
@@ -46,43 +63,31 @@
             </div>
         </div>
 
-        <div class="row text-center">
+        <section class="row text-center text-uppercase">
             <div class="col-md-4">
-                <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify" data-toggle="modal"
-                     data-target="#project1">
-                <h3 class="text-uppercase">Appify</h3>
-                <p><a href="http://github.com">Link to project</a></p>
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
-                <h3 class="text-uppercase">Appify</h3>
-                <p><a href="http://github.com">Link to project</a></p>
+                <img class="img-responsive" src="img/fixed/portfolio.jpg" alt="My Portfolio">
+                <p>
+                    <a href="https://github.com/starlest/Portfolio">
+                        <h3>Portfolio</h3>
+                    </a>
+                </p>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
-                <h3 class="text-uppercase">Appify</h3>
-                <p><a href="http://github.com">Link to project</a></p>
+                <img class="img-responsive" src="img/fixed/virtual-tourist.jpg" alt="Virtual Tourist">
+                <p>
+                    <a href="https://github.com/starlest/VirtualTourist">
+                        <h3>Virtual Tourist</h3>
+                    </a>
+                </p>
             </div>
-        </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive" src="http://placehold.it/555x300">
-                        This was my first project in this class. I learned a lot about HTML and CSS.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/fixed/virtual-tourist.jpg" alt="Virtual Tourist">
+                <p>
+                    <a href="https://github.com/starlest/VirtualTourist">
+                        <h3>Virtual Tourist</h3>
+                    </a>
+                </p>
             </div>
-        </div>
-
+        </section>
     </body>
 </html>
